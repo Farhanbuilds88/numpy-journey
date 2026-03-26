@@ -1,112 +1,200 @@
-# 🐍 NumPy Journey
+# 🐍 NumPy Learning Journey 🚀
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)  
-[![NumPy](https://img.shields.io/badge/NumPy-1.26-orange)](https://numpy.org/)  
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/NumPy-1.26-orange?style=for-the-badge&logo=numpy" />
+  <img src="https://img.shields.io/badge/Progress-5%20Days-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Science-informational?style=for-the-badge" />
+</p>
 
-Welcome to my NumPy journey! This repository contains my daily learning notes and code examples while exploring NumPy in Python. Each day includes concepts learned, code examples, and tips for easier understanding.
+---
+
+## 📌 About This Repository
+
+Welcome to my **NumPy Learning Journey**!
+This repository documents my **daily progress** while learning NumPy — a powerful Python library for numerical computing and data manipulation.
+
+Each day includes:
+
+* 📘 Concepts learned
+* 💻 Code implementations
+* 💡 Practical insights
 
 ---
 
 ## 📖 Table of Contents
 
-1. [Day 1: Getting Started with NumPy Arrays](#📅-day-1-getting-started-with-numpy-arrays)  
-2. [Day 2: Array Properties and Aggregation Functions](#📅-day-2-array-properties-and-aggregation-functions)  
-3. [Day 3: Indexing, Fancy Indexing, and Filtering in NumPy](#📅-day-3-indexing-fancy-indexing-and-filtering-in-numpy)  
-4. [Conclusion](#📌-conclusion)  
+* 📅 [Day 1: Getting Started with NumPy Arrays](#-day-1-getting-started-with-numpy-arrays)
+* 📅 [Day 2: Array Properties and Aggregation Functions](#-day-2-array-properties-and-aggregation-functions)
+* 📅 [Day 3: Indexing, Fancy Indexing, and Filtering](#-day-3-indexing-fancy-indexing-and-filtering-in-numpy)
+* 📅 [Day 4: Array Reshaping and Manipulation](#-day-4-array-reshaping-and-manipulation)
+* 📅 [Day 5: Advanced Array Operations](#-day-5-advanced-array-operations)
+* 📌 [Conclusion](#-conclusion)
 
 ---
 
 ## 📅 Day 1: Getting Started with NumPy Arrays
 
-Today, I focused on understanding how to **create arrays** in NumPy and perform **basic operations**.
+🎯 **Goal:** Learn how to create arrays and perform basic operations.
 
-### Functions Learned:
-- `np.array()` – Convert Python lists to NumPy arrays  
-- `np.zeros()` – Create arrays filled with zeros  
-- `np.ones()` – Create arrays filled with ones  
-- `np.full()` – Create arrays filled with a specific value  
-- `np.eye()` – Create identity matrices  
-- `np.arange()` – Create sequences of numbers  
-- `np.mean()` – Calculate the average  
+### 📘 Functions Learned:
 
-[See Day 1 Code](./Day1_code/)  
+* `np.array()` → Convert Python lists into NumPy arrays
+* `np.zeros()` → Create arrays filled with zeros
+* `np.ones()` → Create arrays filled with ones
+* `np.full()` → Create arrays with a specific value
+* `np.eye()` → Generate identity matrix
+* `np.arange()` → Generate sequences
+* `np.mean()` → Calculate average
+
+📂 **Code:** [Day 1 Code](./Day1_code/)
 
 ---
 
 ## 📅 Day 2: Array Properties and Aggregation Functions
 
-Today, I explored **array properties** and **aggregation functions** to better understand NumPy arrays and perform numerical analysis.
+🎯 **Goal:** Understand array structure and perform mathematical operations.
 
-### Array Properties:
-- `arr.dtype` – Check the **data type** of array elements  
-- `arr.astype()` – Convert array to a different **data type**  
-- `arr.shape` – Get the **dimensions** of the array  
-- `arr.size` – Get the **total number of elements**  
-- `arr.ndim` – Get the **number of dimensions**  
+### 📘 Array Properties:
 
-### Aggregation / Math Functions:
-- `np.sum(arr)` – Sum of all elements  
-- `np.mean(arr)` – Average of elements  
-- `np.min(arr)` – Minimum value  
-- `np.max(arr)` – Maximum value  
-- `np.std(arr)` – Standard deviation  
-- `np.var(arr)` – Variance  
+* `arr.dtype` → Data type
+* `arr.astype()` → Convert data type
+* `arr.shape` → Dimensions
+* `arr.size` → Total elements
+* `arr.ndim` → Number of dimensions
 
-[See Day 2 Code](./Day2_code/)  
+### 📊 Aggregation Functions:
+
+* `np.sum()` → Sum
+* `np.mean()` → Average
+* `np.min()` → Minimum
+* `np.max()` → Maximum
+* `np.std()` → Standard deviation
+* `np.var()` → Variance
+
+📂 **Code:** [Day 2 Code](./Day2_code/)
 
 ---
 
 ## 📅 Day 3: Indexing, Fancy Indexing, and Filtering in NumPy
 
-Today, I explored **how to access elements** in 2D and 3D arrays, used **fancy indexing** to select multiple elements, and applied **filtering** to extract data based on conditions.
+🎯 **Goal:** Access and filter data efficiently.
 
-### Indexing:
+### 🔍 Indexing:
 
-#### 2D Arrays:
-- `arr_2d[row, column]` – Access a specific element  
-- Example: `arr_2d[0, 2]` → Access **3** from first row, third column  
+* `arr[row, col]` → Access element
+* 3D indexing → `arr[layer, row, col]`
 
-#### 3D Arrays:
-- `arr_3d[layer, row, column]` – Access element in a 3D array  
-- Example: `arr_3d[1, 0, 2]` → Access element from 2nd layer, 1st row, 3rd column  
+### ✨ Fancy Indexing:
 
----
+* Select multiple elements
+* Works in 1D & 2D arrays
 
-### Fancy Indexing:
-- `arr[[index1, index2, ...]]` – Select multiple elements at once  
-- Works in 1D and 2D arrays  
-- Example 1D: `arr[[0, 2, 4]]` → Select elements at positions 0, 2, and 4  
-- Example 2D: `arr_2d[[0, 2], [1, 2]]` → Select elements `(0,1)` and `(2,2)`  
+### 🎯 Filtering:
 
----
+* `arr[arr > 5]`
+* `arr[arr % 2 == 0]`
+* Multiple conditions using `&`
 
-### Filtering / Boolean Indexing:
-- `arr[condition]` – Select elements based on a **condition**  
-- Examples:
-  - `arr[arr > 5]` → Elements greater than 5  
-  - `arr[arr % 2 == 0]` → Select even numbers  
-  - `arr[(arr > 5) & (arr < 10)]` → Multiple conditions  
-- **3D arrays** work the same way:  
-  - `arr_3d[arr_3d > 5]` → Returns elements greater than 5 (flattened)
+### 💡 Tips:
+
+* Slicing: `arr[start:end:step]`
+* Fancy indexing returns **copy**
+* Filtering returns **flattened array**
+
+📂 **Code:** [Day 3 Code](./Day3_code/)
 
 ---
 
-### 💡 Tips & Tricks:
-- Slicing: `arr[start:end:step]` works with 1D, 2D, and 3D arrays  
-- Fancy indexing returns a **copy**, not a view  
-- Filtering always returns a **1D array** unless using `np.where()` to keep shape  
+## 📅 Day 4: Array Reshaping and Manipulation
 
-[See Day 3 Code](./Day3_code/)  
+🎯 **Goal:** Modify array shapes and structures.
+
+### 📘 Functions Learned:
+
+* `arr.reshape()` → Change shape
+* `arr.flatten()` → Convert to 1D
+* `arr.ravel()` → Flatten (view if possible)
+* `arr.T` → Transpose
+* `np.resize()` → Resize array
+
+### 🔄 Concepts Practiced:
+
+* 1D → 2D conversion
+* 2D → 1D flattening
+* Multi-shape transformations
+* Preparing data for ML
+
+📂 **Code:** [Day 4 Code](./Day4_code/)
+
+---
+
+## 📅 Day 5: Advanced Array Operations
+
+🎯 **Goal:** Perform complex array manipulations.
+
+### 📘 Functions Learned:
+
+* `np.append()` → Add elements
+* `np.concatenate()` → Join arrays
+* `np.delete()` → Remove elements
+* `np.insert()` → Insert elements
+* `np.vstack()` → Vertical stack
+* `np.hstack()` → Horizontal stack
+* `np.split()` → Split arrays
+
+### ⚙️ Concepts Practiced:
+
+* 1D & 2D operations
+* Row & column concatenation
+* Data insertion & deletion
+* Splitting datasets
+
+📂 **Code:** [Day 5 Code](./Day5_code/)
+
+---
+
+## 📊 Progress Tracker
+
+```
+Day 1  ██████████ 100%
+Day 2  ██████████ 100%
+Day 3  ██████████ 100%
+Day 4  ██████████ 100%
+Day 5  ██████████ 100%
+```
 
 ---
 
 ## 📌 Conclusion
 
-Over these three days, I built a strong foundation in **NumPy**, including:
-- Creating arrays and understanding their **properties**  
-- Performing **aggregation and mathematical operations**  
-- Accessing and manipulating data with **indexing, fancy indexing, and filtering**  
+By completing these 5 days, I have built a strong foundation in:
 
-This structured approach makes it easier to perform **numerical computations**, **data analysis**, and lays the groundwork for **machine learning projects**.  
+✔️ Array creation & properties
+✔️ Mathematical operations
+✔️ Indexing & filtering
+✔️ Reshaping & transformation
+✔️ Advanced array manipulation
+
+This journey prepares me for:
+
+* 📊 Data Analysis
+* 🤖 Machine Learning
+* 📈 Data Science Projects
+
+---
+
+## ⭐ Future Goals
+
+* Learn **NumPy Broadcasting**
+* Explore **Linear Algebra operations**
+* Work with **real datasets**
+* Integrate NumPy with **Pandas & ML models**
+
+---
+
+## 🤝 Connect With Me
+
+If you like this project, feel free to ⭐ the repository and follow my journey!
 
 ---
