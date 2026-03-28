@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/NumPy-1.26-orange?style=for-the-badge&logo=numpy" />
-  <img src="https://img.shields.io/badge/Progress-6%20Days-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Progress-7%20Days-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Data%20Science-informational?style=for-the-badge" />
 </p>
 
@@ -11,7 +11,7 @@
 
 ## 📌 About This Repository
 
-Welcome to my **NumPy Learning Journey**!
+Welcome to my **NumPy Learning Journey**!  
 This repository documents my **daily progress** while learning NumPy — a powerful Python library for numerical computing and data manipulation.
 
 Each day includes:
@@ -30,6 +30,7 @@ Each day includes:
 * 📅 [Day 4: Array Reshaping and Manipulation](#-day-4-array-reshaping-and-manipulation)
 * 📅 [Day 5: Advanced Array Operations](#-day-5-advanced-array-operations)
 * 📅 [Day 6: NumPy Broadcasting](#-day-6-numpy-broadcasting)
+* 📅 [Day 7: Vectorization in NumPy](#-day-7-vectorization-in-numpy)
 * 📌 [Conclusion](#-conclusion)
 
 ---
@@ -180,20 +181,51 @@ Each day includes:
 
 ---
 
-## 📊 Progress Tracker
-Day 1 ██████████ 100%
-Day 2 ██████████ 100%
-Day 3 ██████████ 100%
-Day 4 ██████████ 100%
-Day 5 ██████████ 100%
-Day 6 ██████████ 100%
+## 📅 Day 7: Vectorization in NumPy
 
+🎯 **Goal:** Learn how to perform operations on entire arrays efficiently without using traditional loops.
+
+### 📘 Concepts Learned:
+
+* Vectorization allows operations to be applied to complete arrays at once
+* NumPy performs element-wise operations automatically
+* Mathematical operations can be executed directly on arrays
+* Vectorized code is shorter, cleaner, and easier to read
+* Vectorization improves performance compared to manual looping
+* It is one of the key reasons NumPy is widely used in data processing
+
+### ⚙️ Concepts Practiced:
+
+* Element-wise addition
+* Element-wise subtraction
+* Element-wise multiplication
+* Element-wise division
+* Power operations on arrays
+* Modulus operations
+* Comparison operations
+* Applying scalar values to entire arrays
+* Working with vectorized arithmetic expressions
+* Understanding the difference between loops and vectorized operations
+
+📂 **Code:** [Day 7 Code](./vectorization/)
+
+---
+
+## 📊 Progress Tracker
+
+Day 1 ██████████ 100%  
+Day 2 ██████████ 100%  
+Day 3 ██████████ 100%  
+Day 4 ██████████ 100%  
+Day 5 ██████████ 100%  
+Day 6 ██████████ 100%  
+Day 7 ██████████ 100%  
 
 ---
 
 ## 📌 Conclusion
 
-By completing these 6 days, I have built a strong foundation in:
+By completing these 7 days, I have built a strong foundation in:
 
 ✔️ Array creation & properties  
 ✔️ Mathematical operations  
@@ -201,12 +233,14 @@ By completing these 6 days, I have built a strong foundation in:
 ✔️ Reshaping & transformation  
 ✔️ Advanced array manipulation  
 ✔️ Broadcasting and array compatibility  
+✔️ Vectorized operations for efficient computation  
 
 This journey prepares me for:
 
 * 📊 Data Analysis
 * 🤖 Machine Learning
 * 📈 Data Science Projects
+* ⚡ High-performance numerical computing
 
 ---
 
@@ -216,6 +250,7 @@ This journey prepares me for:
 * Work with **real datasets**
 * Integrate NumPy with **Pandas & ML models**
 * Learn **NumPy optimization techniques**
+* Practice **advanced vectorized operations**
 * Move towards **Data Science & Machine Learning**
 
 ---
