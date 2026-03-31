@@ -7,3 +7,6 @@ print(np.isinf(arr))
 
 arr = np.array([-5, -10, -np.inf, 15])
 print(np.isinf(arr))
+
+arr1=np.array([23,45,6,np.inf,4])
+print(np.isinf(arr1))
