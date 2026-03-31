@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/NumPy-1.26-orange?style=for-the-badge&logo=numpy" />
-  <img src="https://img.shields.io/badge/Progress-7%20Days-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Progress-8%20Days-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Data%20Science-informational?style=for-the-badge" />
 </p>
 
@@ -31,6 +31,7 @@ Each day includes:
 * 📅 [Day 5: Advanced Array Operations](#-day-5-advanced-array-operations)
 * 📅 [Day 6: NumPy Broadcasting](#-day-6-numpy-broadcasting)
 * 📅 [Day 7: Vectorization in NumPy](#-day-7-vectorization-in-numpy)
+* 📅 [Day 8: Handling Missing Values in NumPy](#-day-8-handling-missing-values-in-numpy)
 * 📌 [Conclusion](#-conclusion)
 
 ---
@@ -211,6 +212,30 @@ Each day includes:
 
 ---
 
+## 📅 Day 8: Handling Missing Values in NumPy
+
+🎯 **Goal:** Learn how to detect and handle missing, invalid, and infinite values in NumPy arrays.
+
+### 📘 Functions Learned:
+
+* np.isnan() → Detect missing values (NaN)
+* np.isinf() → Detect positive and negative infinite values
+* np.nan_to_num() → Replace NaN and infinite values with numerical values
+
+### ⚙️ Concepts Practiced:
+
+* Identifying missing values in arrays
+* Detecting infinite values
+* Handling invalid numerical entries
+* Cleaning arrays for preprocessing
+* Replacing NaN with valid numbers
+* Replacing positive and negative infinity
+* Preparing cleaner data for analysis and machine learning workflows
+
+📂 **Code:** [Day 8 Code](./Handling_miss_values/)
+
+---
+
 ## 📊 Progress Tracker
 
 Day 1 ██████████ 100%  
@@ -220,12 +245,13 @@ Day 4 ██████████ 100%
 Day 5 ██████████ 100%  
 Day 6 ██████████ 100%  
 Day 7 ██████████ 100%  
+Day 8 ██████████ 100%  
 
 ---
 
 ## 📌 Conclusion
 
-By completing these 7 days, I have built a strong foundation in:
+By completing these 8 days, I have built a strong foundation in:
 
 ✔️ Array creation & properties  
 ✔️ Mathematical operations  
@@ -234,6 +260,7 @@ By completing these 7 days, I have built a strong foundation in:
 ✔️ Advanced array manipulation  
 ✔️ Broadcasting and array compatibility  
 ✔️ Vectorized operations for efficient computation  
+✔️ Handling missing and invalid numerical values  
 
 This journey prepares me for:
 
